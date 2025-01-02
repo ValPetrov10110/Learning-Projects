@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 /* 
     I will be using the Luhn Algorithm for this project
    
@@ -26,10 +27,13 @@ int main(){
     cout << "Card Number > ";
     cin >> cardNum;
 
+    luhnAlgo(cardNum);
+
     return 0;
 }
 
 bool luhnAlgo(std::string cardNum){
-    
+    int cardLength = cardNum.length();
+    cout << cardLength << '\n';
     return false;
 }
