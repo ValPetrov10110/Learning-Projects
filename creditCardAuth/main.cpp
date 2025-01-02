@@ -17,5 +17,12 @@ using std::cin;
 
 int main(){
 
+    cout << "-------------- Credit Card Authenticator --------------\n";
+    cout << "                        (No -)\n";
+    cout << '\n';
+    std::string cardNum;
+    cout << "Card Number > ";
+    cin >> cardNum;
+
     return 0;
 }
