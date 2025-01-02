@@ -15,6 +15,8 @@
 using std::cout;
 using std::cin;
 
+bool luhnAlgo(std::string cardNum);
+
 int main(){
 
     cout << "-------------- Credit Card Authenticator --------------\n";
@@ -25,4 +27,9 @@ int main(){
     cin >> cardNum;
 
     return 0;
+}
+
+bool luhnAlgo(std::string cardNum){
+    
+    return false;
 }
