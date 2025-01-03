@@ -1,3 +1,4 @@
+#include <cctype>
 #include <iostream>
 #include <string>
 /* 
@@ -34,9 +35,12 @@ int main(){
 
 bool luhnAlgo(std::string cardNum){
     int cardLength = cardNum.length();
+
     
     for(int i = cardLength - 1; i >= 0; i--){
-        cout << cardNum[i];
+        
+        
+
     }
 
     return false;
