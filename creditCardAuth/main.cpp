@@ -34,5 +34,15 @@ int main(){
 
 bool luhnAlgo(long cardNum){
 
+    long x = cardNum;
+    int counter = 0;
+
+    do{
+        counter++;
+        x = x / 10;
+    }while(x > 0);
+
+    cout << counter << " digits long\n";
+
     return false;
 }
