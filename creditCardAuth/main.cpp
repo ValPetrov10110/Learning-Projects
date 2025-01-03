@@ -17,32 +17,9 @@
 using std::cout;
 using std::cin;
 
-bool luhnAlgo(long cardNum);
 
 int main(){
 
-    cout << "-------------- Credit Card Authenticator --------------\n";
-    cout << "                        (No -)\n";
-    cout << '\n';
-    long cardNum;
-    cout << "Card Number > ";
-    cin >> cardNum;
-    luhnAlgo(cardNum);
 
     return 0;
-}
-
-bool luhnAlgo(long cardNum){
-
-    long x = cardNum;
-    int counter = 0;
-
-    do{
-        counter++;
-        x = x / 10;
-    }while(x > 0);
-
-    cout << counter << " digits long\n";
-
-    return false;
 }
