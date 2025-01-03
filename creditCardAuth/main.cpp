@@ -34,6 +34,10 @@ int main(){
 
 bool luhnAlgo(std::string cardNum){
     int cardLength = cardNum.length();
-    cout << cardLength << '\n';
+    
+    for(int i = cardLength - 1; i >= 0; i--){
+        cout << cardNum[i];
+    }
+
     return false;
 }
