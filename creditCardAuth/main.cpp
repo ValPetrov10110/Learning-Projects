@@ -17,9 +17,27 @@
 using std::cout;
 using std::cin;
 
+int getDigit(const int number);
+int sumOddDigits(const std::string cardNumber);
+int sumEvenDigits(const std::string cardNumber);
 
 int main(){
 
+
+    return 0;
+}
+
+int getDigits(const int number){
+
+    return 0;
+}
+
+int sumOdDigits(const std::string cardNumber){
+
+    return 0;
+}
+
+int sumEvenDigits(const std::string cardNumber){
 
     return 0;
 }
