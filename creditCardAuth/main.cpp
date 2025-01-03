@@ -23,21 +23,52 @@ int sumEvenDigits(const std::string cardNumber);
 
 int main(){
 
+    std::string cardNumber;
+    int result = 0;
+
+    cout << "Enter Credit Card Number > ";
+    cin >> cardNumber;
+
+    result = sumEvenDigits(cardNumber) + sumOddDigits(cardNumber);
+
+    if(result % 10 == 0){
+        cout << "Valid Card\n";
+    }
+    else{
+        cout << "Invalid Card\n";
+    }
+
 
     return 0;
 }
 
-int getDigits(const int number){
+int getDigit(const int number){
 
-    return 0;
+    if(number > 9){
+        return number - 9;
+    }
+
+    return number;
 }
 
-int sumOdDigits(const std::string cardNumber){
+int sumOddDigits(const std::string cardNumber){
+    
+    int sum = 0;
 
-    return 0;
+    for(int i = cardNumber.size() - 1; i >= 0; i -= 2){
+        sum += cardNumber[i] - '0';
+    }
+
+    return sum;
 }
 
 int sumEvenDigits(const std::string cardNumber){
 
-    return 0;
+    int sum = 0;
+
+    for(int i = cardNumber.size() - 2; i >= 0; i-=2){
+        sum += getDigit((cardNumber[i] - '0') * 2);
+    }
+
+    return sum;
 }
