@@ -17,31 +17,22 @@
 using std::cout;
 using std::cin;
 
-bool luhnAlgo(std::string cardNum);
+bool luhnAlgo(long cardNum);
 
 int main(){
 
     cout << "-------------- Credit Card Authenticator --------------\n";
     cout << "                        (No -)\n";
     cout << '\n';
-    std::string cardNum;
+    long cardNum;
     cout << "Card Number > ";
     cin >> cardNum;
-
     luhnAlgo(cardNum);
 
     return 0;
 }
 
-bool luhnAlgo(std::string cardNum){
-    int cardLength = cardNum.length();
-
-    
-    for(int i = cardLength - 1; i >= 0; i--){
-        
-        
-
-    }
+bool luhnAlgo(long cardNum){
 
     return false;
 }
