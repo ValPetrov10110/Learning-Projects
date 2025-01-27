@@ -78,6 +78,7 @@ void journeyStart(Human character){
     if(toupper(response) == 'Y'){
         cout << "COMING SOON\n";
     }
+    // Returns back to the main menu where it will prompt you to play again if you wish
     else{
         cin.ignore();
         system("cls");
