@@ -1,6 +1,13 @@
 #include <iostream>
 #include <limits>
 
+// TO-DO LIST
+// 1. Add routes the player would go through
+// 2. Add things for the player to interact with
+// 3. Implement a storage system
+// 4. Add NPCs
+// 5. Add towns
+
 using std::cout;
 using std::cin;
 
