@@ -1,8 +1,6 @@
 #include <iostream>
 #include <limits>
 
-// This is a test comment to see if it will appear in my Laptop V2.0!
-
 // TO-DO LIST
 // 1. Add routes the player would go through
 // 2. Add things for the player to interact with
