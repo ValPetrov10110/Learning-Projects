@@ -5,6 +5,8 @@ using std::cout;
 using std::cin;
 
 int main(){
+
     MessageBox(NULL, TEXT("Hello, Windows API!"), TEXT("Message Box"), MB_OK);
+    
     return 0;
 }
