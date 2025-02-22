@@ -8,4 +8,4 @@ IN DEVELOPMENT
 IN DEVELOPMENT
 
 ## 3. Hardware Collector
-IN DEVELOPEMENT
+IN DEVELOPEMENT (Will be out of service for a while / ambitious project too early)
