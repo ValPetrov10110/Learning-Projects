@@ -9,3 +9,7 @@ IN DEVELOPMENT
 
 ## 3. Hardware Collector
 IN DEVELOPEMENT (Will be out of service for a while / ambitious project too early)
+
+## 4. The Adventure Game
+This project will be creating a program that utilizes a little bit on OOP and basic game-logic. This 
+skill set is essentially responsible for "Thinking Like A Programmer".
